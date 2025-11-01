@@ -13,3 +13,19 @@ if(notaFinal <7 && faltas > 4){
 }else{
     console.log('Não foi reporvado por faltas');
 }
+
+const advertencias = 0;
+
+if(notaFinal >=2 && !advertencias){
+    console.log('Recebeu bonus');
+}else{
+    console.log('Não recebeu bonus');
+}
+
+if(notaFinal >=2 && advertencias){
+    console.log('Recebeu bonus');
+}else{
+    console.log('Não recebeu bonus');
+}
+
+
